@@ -34,6 +34,7 @@ id homePageImage
 id loginButton
 id menuFragment
 id nav_graph
+id recyclerView
 id txtHomeText
 layout activity_main
 layout fragment_details

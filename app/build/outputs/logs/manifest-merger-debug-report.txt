@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\user\.gradle\caches\transforms-3\8c30af99f17f9356bbcf830547ec83e4\transformed\viewbinding-7.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.2] C:\Users\user\.gradle\caches\transforms-3\1f0a4f2b02536a4d8f87f48a9b38d82d\transformed\navigation-ui-ktx-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.2] C:\Users\user\.gradle\caches\transforms-3\d59c996b9e227703f617720f08d473f4\transformed\navigation-ui-2.5.2\AndroidManifest.xml:17:1-24:12
@@ -32,13 +32,14 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\user\.grad
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\user\.gradle\caches\transforms-3\a9945ad830835c7cec63dc7d0e699788\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\user\.gradle\caches\transforms-3\82c75ac063bbf38eb91f5c464fb17518\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\user\.gradle\caches\transforms-3\15e3ed0330f10449db46d34d0f676538\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\user\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\user\.gradle\caches\transforms-3\eabff282dabbd616f99b37d6c01c747b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\transforms-3\ac3c80120190a987520f8fb371c1bd4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\e61c4f70ddf8ce81c0cb12ba50a42b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-3\ee350dbd251e8eec6fc96aadd7a73324\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\1d17bd84746a9e40b4f999ba77fd01d5\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\bcae7e9fdef0710ed398cee7f0698e2d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\user\.gradle\caches\transforms-3\f0ed5b59dedbe080baa2efe2f3b32ac1\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -61,27 +62,31 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\07235dcdbc235dc44a299320136f3739\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\72b8f084cae83bef33eea4727f6a3765\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\user\.gradle\caches\transforms-3\9312771a283a953dd698aabf8b4affc5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:4:5-55
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:5:5-83
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:6:5-29:19
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:7:5-30:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\transforms-3\2fb9c694c74066081513cbdc7959425c\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\transforms-3\2fb9c694c74066081513cbdc7959425c\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -99,49 +104,49 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\4c632e2d845ab709ba825e096c8f0f56\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\4c632e2d845ab709ba825e096c8f0f56\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:screenOrientation
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:16:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\7590a1e12b0ebd656213122466fd387b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:14:9-59
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:15:9-59
 	android:dataExtractionRules
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.bahadir_eray_retrofitproject.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:17:9-25:20
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.bahadir_eray_retrofitproject.view.MainActivity
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:19:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:24:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:26:9-28:57
+ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:27:9-29:57
 	android:resource
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:29:13-54
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:27:13-43
+		ADDED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:28:13-43
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
@@ -202,6 +207,10 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transfor
 MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\user\.gradle\caches\transforms-3\82c75ac063bbf38eb91f5c464fb17518\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\user\.gradle\caches\transforms-3\82c75ac063bbf38eb91f5c464fb17518\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\user\.gradle\caches\transforms-3\15e3ed0330f10449db46d34d0f676538\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\user\.gradle\caches\transforms-3\15e3ed0330f10449db46d34d0f676538\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\user\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\user\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\user\.gradle\caches\transforms-3\eabff282dabbd616f99b37d6c01c747b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\user\.gradle\caches\transforms-3\eabff282dabbd616f99b37d6c01c747b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -214,8 +223,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\use
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-3\ee350dbd251e8eec6fc96aadd7a73324\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\1d17bd84746a9e40b4f999ba77fd01d5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\1d17bd84746a9e40b4f999ba77fd01d5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\bcae7e9fdef0710ed398cee7f0698e2d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41

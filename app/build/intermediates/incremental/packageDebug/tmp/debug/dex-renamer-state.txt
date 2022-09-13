@@ -1,10 +1,13 @@
-#Sun Sep 11 18:58:16 TRT 2022
-base.2=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+#Tue Sep 13 17:05:31 TRT 2022
+path.3=5/classes.dex
 path.2=15/classes.dex
-base.1=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
+path.0=classes.dex
+base.3=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.2=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.1=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\Users\\user\\AndroidStudioProjects\\BahadirErayRetrofitProject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-path.0=classes.dex

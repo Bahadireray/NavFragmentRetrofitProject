@@ -1,18 +1,22 @@
 [
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:/layout/fragment_home.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-47:/layout/fragment_home.xml"
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_home.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:/layout/activity_main.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-47:/layout/activity_main.xml"
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:/layout/fragment_details.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-47:/layout/fragment_details.xml"
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_details.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_details.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:/layout/fragment_menu.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-47:/layout/fragment_menu.xml"
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/row_layout.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/row_layout.xml"
+    },
+    {
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_menu.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_menu.xml"
     }
 ]

@@ -5,6 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.bahadir_eray_retrofitproject.adapter.RecyclerViewAdapter
 import com.example.bahadir_eray_retrofitproject.databinding.FragmentMenuBinding
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
 import com.example.bahadir_eray_retrofitproject.service.MarsAPIService
@@ -19,6 +23,7 @@ class MenuFragment : Fragment() {
     private val binding get() = _binding!!
     private val marsAPIService = MarsAPIService()
     private var marsModel: ArrayList<MarsModel>? = null
+    private var recyclerViewAdapter: RecyclerViewAdapter? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -37,6 +42,14 @@ class MenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         getDataFromAPI()
+        val layoutManager: RecyclerView.LayoutManager = GridLayoutManager(
+            requireContext().applicationContext,
+            2,
+            GridLayoutManager.VERTICAL,
+            false
+        )
+        binding.recyclerView.layoutManager = layoutManager
+
     }
 
     private fun getDataFromAPI() {
@@ -49,8 +62,9 @@ class MenuFragment : Fragment() {
                 if (response.isSuccessful) {
                     response.body()?.let {
                         marsModel = ArrayList(it)
-                        for (mars: MarsModel in marsModel!!) {
-                            println(mars.price)
+                        marsModel?.let {
+                            recyclerViewAdapter = RecyclerViewAdapter(marsModel!!)
+                            binding.recyclerView.adapter = recyclerViewAdapter
                         }
                     }
                 }

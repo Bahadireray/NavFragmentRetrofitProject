@@ -2784,6 +2784,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2829,6 +2830,10 @@ id list_item
 id locale
 id loginButton
 id ltr
+id marsId
+id marsImageView
+id marsPrice
+id marsType
 id masked
 id match_constraint
 id match_parent
@@ -3246,6 +3251,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

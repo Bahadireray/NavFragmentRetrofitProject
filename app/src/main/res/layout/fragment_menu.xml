@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MenuFragment">
+    tools:context=".view.MenuFragment"
+    android:paddingLeft="27dp">
 
 
     <androidx.recyclerview.widget.RecyclerView

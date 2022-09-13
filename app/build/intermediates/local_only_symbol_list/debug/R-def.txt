@@ -32,6 +32,10 @@ id homeButtonText
 id homeFragment
 id homePageImage
 id loginButton
+id marsId
+id marsImageView
+id marsPrice
+id marsType
 id menuFragment
 id nav_graph
 id recyclerView
@@ -40,6 +44,7 @@ layout activity_main
 layout fragment_details
 layout fragment_home
 layout fragment_menu
+layout row_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

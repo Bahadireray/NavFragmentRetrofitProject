@@ -1,7 +1,6 @@
 package com.example.bahadir_eray_retrofitproject.view
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -44,7 +43,6 @@ class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
         val view = binding.root
         return view
     }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -91,8 +89,6 @@ class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
             override fun onFailure(call: Call<List<MarsModel>>, t: Throwable) {
                 t.printStackTrace()
             }
-
         })
     }
-
 }

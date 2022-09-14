@@ -1,13 +1,10 @@
 package com.example.bahadir_eray_retrofitproject.service
 
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
-import com.google.gson.Gson
-import io.reactivex.Single
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class MarsAPIService {
 
@@ -24,6 +21,5 @@ class MarsAPIService {
 
     fun getMars(): Call<List<MarsModel>> {
         return api.getData()
-
     }
 }

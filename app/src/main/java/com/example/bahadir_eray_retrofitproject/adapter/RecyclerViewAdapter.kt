@@ -22,11 +22,9 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: L
                 listener.onItemClick(marsModel)
             }
         }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsHolder {
-
         val recyclerRowLayoutBinding =
             RowLayoutBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return MarsHolder(recyclerRowLayoutBinding)

@@ -10,5 +10,4 @@ interface MarsAPI {
     // GET: realestate
     @GET("realestate")
     fun getData(): Call<List<MarsModel>>
-
 }

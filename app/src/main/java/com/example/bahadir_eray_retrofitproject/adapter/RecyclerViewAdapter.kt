@@ -3,7 +3,6 @@ package com.example.bahadir_eray_retrofitproject.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bahadir_eray_retrofitproject.R
 import com.example.bahadir_eray_retrofitproject.databinding.RowLayoutBinding
@@ -34,9 +33,6 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: L
     }
 
     override fun onBindViewHolder(holder: MarsHolder, position: Int) {
-
-        var img = holder.recyclerRowLayoutBinding.marsImageView
-
         holder.recyclerRowLayoutBinding.marsId.text = marsList[position].id.toString()
         holder.recyclerRowLayoutBinding.marsPrice.text = marsList[position].price.toString()
         holder.recyclerRowLayoutBinding.marsType.text = marsList[position].type.toString()

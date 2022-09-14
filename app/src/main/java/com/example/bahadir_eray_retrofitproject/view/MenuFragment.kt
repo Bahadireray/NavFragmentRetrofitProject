@@ -1,6 +1,7 @@
 package com.example.bahadir_eray_retrofitproject.view
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,20 +14,25 @@ import com.example.bahadir_eray_retrofitproject.adapter.RecyclerViewAdapter
 import com.example.bahadir_eray_retrofitproject.databinding.FragmentMenuBinding
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
 import com.example.bahadir_eray_retrofitproject.service.MarsAPIService
+import io.reactivex.disposables.CompositeDisposable
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 
-class MenuFragment : Fragment(), RecyclerViewAdapter.Listener{
+class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
 
     private var _binding: FragmentMenuBinding? = null
     private val binding get() = _binding!!
     private val marsAPIService = MarsAPIService()
     private var marsModel: ArrayList<MarsModel>? = null
     private var recyclerViewAdapter: RecyclerViewAdapter? = null
+
+    // Disposable
+    private var compositeDisposable: CompositeDisposable? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        compositeDisposable = CompositeDisposable()
 
     }
 
@@ -53,8 +59,17 @@ class MenuFragment : Fragment(), RecyclerViewAdapter.Listener{
     }
 
     override fun onItemClick(marsModel: MarsModel) {
-        view?.let { Navigation.findNavController(it).navigate(R.id.action_menuFragment_to_detailsFragment) }
+        view?.let {
+            Navigation.findNavController(it)
+                .navigate(R.id.action_menuFragment_to_detailsFragment, Bundle().apply {
+                    putString("marsIdDetail", marsModel.id.toString())
+                    putString("marsTypeDetail", marsModel.type.toString())
+                    putString("marsPriceDetail", marsModel.price.toString())
+                    putString("marsImgDetail", marsModel.img_src)
+                })
+        }
     }
+
     private fun getDataFromAPI() {
         val call = marsAPIService.getMars()
         call.enqueue(object : Callback<List<MarsModel>> {

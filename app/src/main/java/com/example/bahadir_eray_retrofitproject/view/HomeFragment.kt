@@ -10,6 +10,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.graphics.toColorInt
+import androidx.navigation.Navigation
+import com.example.bahadir_eray_retrofitproject.R
 import com.example.bahadir_eray_retrofitproject.databinding.FragmentHomeBinding
 
 
@@ -41,6 +43,10 @@ class HomeFragment : Fragment() {
         colorSpan.setSpan(txtOrange, 18, 30, Spanned.SPAN_EXCLUSIVE_INCLUSIVE)
         binding.txtHomeText.text = colorSpan
 
+        binding.loginButton.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_menuFragment)
+
+        }
 
     }
 }

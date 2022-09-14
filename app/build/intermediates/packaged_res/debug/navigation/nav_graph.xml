@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/menuFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/menuFragment"
@@ -18,10 +18,14 @@
         android:id="@+id/homeFragment"
         android:name="com.example.bahadir_eray_retrofitproject.view.HomeFragment"
         android:label="fragment_home"
+
         tools:layout="@layout/fragment_home" >
         <action
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
             android:id="@+id/action_homeFragment_to_menuFragment"
-            app:destination="@id/menuFragment" />
+            app:destination="@id/menuFragment"
+           />
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"

@@ -2809,6 +2809,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewDetail
 id immediateStop
 id included
 id info
@@ -2826,15 +2827,19 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id locale
 id loginButton
 id ltr
 id marsId
+id marsIdDetails
 id marsImageView
 id marsPrice
+id marsPriceDetails
 id marsType
+id marsTypeDetails
 id masked
 id match_constraint
 id match_parent
@@ -2946,6 +2951,7 @@ id rightToLeft
 id right_icon
 id right_side
 id rounded
+id rowMars
 id row_index_key
 id rtl
 id save_non_transition_alpha

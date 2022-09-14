@@ -32,13 +32,18 @@ public final class RowLayoutBinding implements ViewBinding {
   @NonNull
   public final TextView marsType;
 
+  @NonNull
+  public final ConstraintLayout rowMars;
+
   private RowLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull TextView marsId,
-      @NonNull ImageView marsImageView, @NonNull TextView marsPrice, @NonNull TextView marsType) {
+      @NonNull ImageView marsImageView, @NonNull TextView marsPrice, @NonNull TextView marsType,
+      @NonNull ConstraintLayout rowMars) {
     this.rootView = rootView;
     this.marsId = marsId;
     this.marsImageView = marsImageView;
     this.marsPrice = marsPrice;
     this.marsType = marsType;
+    this.rowMars = rowMars;
   }
 
   @Override
@@ -92,8 +97,10 @@ public final class RowLayoutBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout rowMars = (ConstraintLayout) rootView;
+
       return new RowLayoutBinding((ConstraintLayout) rootView, marsId, marsImageView, marsPrice,
-          marsType);
+          marsType, rowMars);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

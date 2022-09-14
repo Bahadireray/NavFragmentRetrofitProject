@@ -1,12 +1,14 @@
 package com.example.bahadir_eray_retrofitproject.view
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.bahadir_eray_retrofitproject.R
 import com.example.bahadir_eray_retrofitproject.adapter.RecyclerViewAdapter
 import com.example.bahadir_eray_retrofitproject.databinding.FragmentMenuBinding
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
@@ -16,7 +18,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 
-class MenuFragment : Fragment() {
+class MenuFragment : Fragment(), RecyclerViewAdapter.Listener{
 
     private var _binding: FragmentMenuBinding? = null
     private val binding get() = _binding!!
@@ -48,9 +50,11 @@ class MenuFragment : Fragment() {
             false
         )
         binding.recyclerView.layoutManager = layoutManager
-
     }
 
+    override fun onItemClick(marsModel: MarsModel) {
+        view?.let { Navigation.findNavController(it).navigate(R.id.action_menuFragment_to_detailsFragment) }
+    }
     private fun getDataFromAPI() {
         val call = marsAPIService.getMars()
         call.enqueue(object : Callback<List<MarsModel>> {
@@ -62,7 +66,7 @@ class MenuFragment : Fragment() {
                     response.body()?.let {
                         marsModel = ArrayList(it)
                         marsModel?.let {
-                            recyclerViewAdapter = RecyclerViewAdapter(marsModel!!)
+                            recyclerViewAdapter = RecyclerViewAdapter(it!!, this@MenuFragment)
                             binding.recyclerView.adapter = recyclerViewAdapter
                         }
                     }

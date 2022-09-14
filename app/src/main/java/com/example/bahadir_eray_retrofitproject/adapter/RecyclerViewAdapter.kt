@@ -3,18 +3,26 @@ package com.example.bahadir_eray_retrofitproject.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bahadir_eray_retrofitproject.R
 import com.example.bahadir_eray_retrofitproject.databinding.RowLayoutBinding
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
 import com.squareup.picasso.Picasso
 
-class RecyclerViewAdapter(val marsList: List<MarsModel>) :
+class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: Listener) :
     RecyclerView.Adapter<RecyclerViewAdapter.MarsHolder>() {
+    interface Listener {
+        fun onItemClick(marsModel: MarsModel)
+    }
 
     class MarsHolder(val recyclerRowLayoutBinding: RowLayoutBinding) :
         RecyclerView.ViewHolder(recyclerRowLayoutBinding.root) {
-
+        fun bind(marsModel: MarsModel, position: Int, listener: Listener) {
+            itemView.setOnClickListener {
+                listener.onItemClick(marsModel)
+            }
+        }
 
     }
 
@@ -28,6 +36,7 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>) :
     override fun onBindViewHolder(holder: MarsHolder, position: Int) {
 
         var img = holder.recyclerRowLayoutBinding.marsImageView
+
         holder.recyclerRowLayoutBinding.marsId.text = marsList[position].id.toString()
         holder.recyclerRowLayoutBinding.marsPrice.text = marsList[position].price.toString()
         holder.recyclerRowLayoutBinding.marsType.text = marsList[position].type.toString()
@@ -36,13 +45,10 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>) :
             .placeholder(R.drawable.astranot)
             .error(R.drawable.rocket)
             .into(holder.recyclerRowLayoutBinding.marsImageView)
-        println("$marsList[position].img_src  NEZIMEN")
-
+        holder.bind(marsList[position], position, listener)
     }
 
     override fun getItemCount(): Int {
         return marsList.count()
     }
-
-
 }

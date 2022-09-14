@@ -19,7 +19,9 @@ drawable home_background_image
 drawable home_button
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable menu_background_title
 drawable rocket
+drawable row_background
 font amaranth
 font open_sans_light
 id action_detailsFragment_to_menuFragment
@@ -39,6 +41,7 @@ id marsType
 id menuFragment
 id nav_graph
 id recyclerView
+id textView
 id txtHomeText
 layout activity_main
 layout fragment_details

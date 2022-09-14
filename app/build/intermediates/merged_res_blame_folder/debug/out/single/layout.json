@@ -1,22 +1,26 @@
 [
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_home.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:\\layout\\fragment_details.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-main-47:\\layout\\fragment_details.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/activity_main.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/activity_main.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:\\layout\\row_layout.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-main-47:\\layout\\row_layout.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_details.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_details.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:\\layout\\fragment_menu.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-main-47:\\layout\\fragment_menu.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/row_layout.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/row_layout.xml"
+        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:/layout/fragment_menu.xml",
+        "source": "com.example.bahadir_eray_retrofitproject.app-main-47:/layout/fragment_menu.xml"
     },
     {
-        "merged": "com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-45:/layout/fragment_menu.xml",
-        "source": "com.example.bahadir_eray_retrofitproject.app-main-48:/layout/fragment_menu.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-main-47:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.bahadir_eray_retrofitproject.app-main-47:\\layout\\activity_main.xml"
     }
 ]

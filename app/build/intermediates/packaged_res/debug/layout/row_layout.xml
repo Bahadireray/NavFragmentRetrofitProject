@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:padding="10dp"
+    android:background="@drawable/row_background"
+    android:padding="12dp"
     android:orientation="vertical">
 
     <ImageView
@@ -22,7 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-35dp"
+        android:fontFamily="@font/amaranth"
         android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/marsImageView"
         app:layout_constraintStart_toStartOf="@+id/marsImageView"
         app:layout_constraintTop_toBottomOf="@+id/marsImageView" />
@@ -32,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/marsImageView"
         app:layout_constraintEnd_toEndOf="@+id/marsType"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,10 +49,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/marsImageView"
         app:layout_constraintEnd_toEndOf="@+id/marsImageView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/marsPrice"
-        app:layout_constraintTop_toTopOf="@+id/marsType"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/marsImageView"
+        app:layout_constraintTop_toBottomOf="@+id/marsType"
         app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

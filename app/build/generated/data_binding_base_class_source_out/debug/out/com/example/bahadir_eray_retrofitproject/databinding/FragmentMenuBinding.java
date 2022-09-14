@@ -4,6 +4,7 @@ package com.example.bahadir_eray_retrofitproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,10 +23,14 @@ public final class FragmentMenuBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerView;
 
+  @NonNull
+  public final TextView textView;
+
   private FragmentMenuBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerView) {
+      @NonNull RecyclerView recyclerView, @NonNull TextView textView) {
     this.rootView = rootView;
     this.recyclerView = recyclerView;
+    this.textView = textView;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class FragmentMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMenuBinding((ConstraintLayout) rootView, recyclerView);
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      return new FragmentMenuBinding((ConstraintLayout) rootView, recyclerView, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

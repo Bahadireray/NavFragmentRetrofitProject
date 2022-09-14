@@ -23,7 +23,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.bahadir_eray_retrofitproject.view.MainActivity"
             android:exported="true" >
@@ -45,6 +46,10 @@
             android:name="androidx.window.sidecar"
             android:required="false" />
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.bahadir_eray_retrofitproject.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.bahadir_eray_retrofitproject.androidx-startup"

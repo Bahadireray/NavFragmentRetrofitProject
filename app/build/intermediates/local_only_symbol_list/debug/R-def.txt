@@ -17,8 +17,10 @@ color white
 drawable astranot
 drawable home_background_image
 drawable home_button
+drawable ic_details_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_radius_background
 drawable menu_background_title
 drawable rocket
 drawable row_background
@@ -35,6 +37,7 @@ id homeFragment
 id homePageImage
 id imageViewDetail
 id linearLayout
+id linearLayout3
 id loginButton
 id marsId
 id marsIdDetails

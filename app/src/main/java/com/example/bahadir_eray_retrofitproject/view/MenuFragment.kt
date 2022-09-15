@@ -13,25 +13,21 @@ import com.example.bahadir_eray_retrofitproject.adapter.RecyclerViewAdapter
 import com.example.bahadir_eray_retrofitproject.databinding.FragmentMenuBinding
 import com.example.bahadir_eray_retrofitproject.model.MarsModel
 import com.example.bahadir_eray_retrofitproject.service.MarsAPIService
-import io.reactivex.disposables.CompositeDisposable
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-
 class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
 
+    //Classes are defined.
     private var _binding: FragmentMenuBinding? = null
     private val binding get() = _binding!!
     private val marsAPIService = MarsAPIService()
     private var marsModel: ArrayList<MarsModel>? = null
     private var recyclerViewAdapter: RecyclerViewAdapter? = null
 
-    // Disposable
-    private var compositeDisposable: CompositeDisposable? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        compositeDisposable = CompositeDisposable()
 
     }
 
@@ -44,6 +40,7 @@ class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
         return view
     }
 
+    //The RecycleView will list the bind operation done.
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         getDataFromAPI()
@@ -54,20 +51,26 @@ class MenuFragment : Fragment(), RecyclerViewAdapter.Listener {
             false
         )
         binding.recyclerView.layoutManager = layoutManager
+
     }
 
+    //Adapter onItemClick->The purpose of the created intents will convey to the detail page
     override fun onItemClick(marsModel: MarsModel) {
         view?.let {
             Navigation.findNavController(it)
                 .navigate(R.id.action_menuFragment_to_detailsFragment, Bundle().apply {
                     putString("marsIdDetail", marsModel.id.toString())
-                    putString("marsTypeDetail", marsModel.type.toString())
+                    putString("marsTypeDetail", marsModel.type)
                     putString("marsPriceDetail", marsModel.price.toString())
                     putString("marsImgDetail", marsModel.img_src)
                 })
         }
     }
 
+    /*
+    We are requesting the 'API' service made.
+    If the answer is successful, we assign it to the 'MarsModel'.
+     */
     private fun getDataFromAPI() {
         val call = marsAPIService.getMars()
         call.enqueue(object : Callback<List<MarsModel>> {

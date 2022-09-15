@@ -11,103 +11,179 @@
 9-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:5:5-83
-11-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:8:5-32:19
-14        android:allowBackup="true"
-14-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:9:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\7590a1e12b0ebd656213122466fd387b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:10:9-65
-17        android:debuggable="true"
-18        android:extractNativeLibs="false"
-19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:11:9-54
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:13:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:14:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:15:9-54
-23        android:screenOrientation="portrait"
-23-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:18:9-45
-24        android:supportsRtl="true"
-24-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:16:9-35
-25        android:testOnly="true"
-26        android:theme="@style/Theme.AppCompat.NoActionBar"
-26-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:17:9-59
-27        android:usesCleartextTraffic="true" >
-27-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:12:9-44
-28        <activity
-28-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:20:9-28:20
-29            android:name="com.example.bahadir_eray_retrofitproject.view.MainActivity"
-29-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:21:13-46
-30            android:exported="true" >
-30-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:22:13-36
-31            <intent-filter>
-31-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:23:13-27:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:24:17-69
-32-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:26:17-77
-34-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:26:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <meta-data
-38-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:29:9-31:57
-39            android:name="preloaded_fonts"
-39-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:30:13-43
-40            android:resource="@array/preloaded_fonts" />
-40-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:31:13-54
-41
-42        <uses-library
-42-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-43            android:name="androidx.window.extensions"
-43-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-44            android:required="false" />
-44-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-45        <uses-library
-45-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-46            android:name="androidx.window.sidecar"
-46-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-47            android:required="false" />
-47-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-48
-49        <provider
-49-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\9dda98024a9307e39ab16498074f6f62\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-50            android:name="com.squareup.picasso.PicassoProvider"
-50-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\9dda98024a9307e39ab16498074f6f62\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-51            android:authorities="com.example.bahadir_eray_retrofitproject.com.squareup.picasso"
-51-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\9dda98024a9307e39ab16498074f6f62\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-52            android:exported="false" />
-52-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\9dda98024a9307e39ab16498074f6f62\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-53        <provider
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-55            android:authorities="com.example.bahadir_eray_retrofitproject.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\cdd7897d315dbde429e2b9f365814df4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\683ed57b598ecc7bebcecc51c2cb0430\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\683ed57b598ecc7bebcecc51c2cb0430\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\683ed57b598ecc7bebcecc51c2cb0430\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-63        </provider>
-64    </application>
-65
-66</manifest>
+11-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:8:5-78
+12-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:8:22-76
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <application
+27-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:10:5-51:19
+28        android:allowBackup="true"
+28-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:11:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] C:\Users\user\.gradle\caches\transforms-3\f74e6ba7b9dd60e3f78ecc579719da39\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:12:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:13:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:14:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:15:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:16:9-54
+37        android:screenOrientation="portrait"
+37-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:17:9-45
+38        android:supportsRtl="true"
+38-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:18:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.AppCompat.NoActionBar"
+40-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:19:9-59
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:20:9-44
+42
+43        <!--
+44             TODO: Before you run your application, you need a Google Maps API key.
+45
+46             To get one, follow the directions here:
+47
+48                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+49
+50             Once you have your API key (it starts with "AIza"), define a new property in your
+51             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+52             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+53        -->
+54        <meta-data
+54-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:34:9-36:71
+55            android:name="com.google.android.geo.API_KEY"
+55-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:35:13-58
+56            android:value="AIzaSyBU2BWJQIb_-Nv4pZBLCKQD-425VpB8et4" />
+56-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:36:13-68
+57
+58        <activity
+58-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:38:9-46:20
+59            android:name="com.example.bahadir_eray_retrofitproject.view.MainActivity"
+59-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:39:13-46
+60            android:exported="true" >
+60-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:40:13-36
+61            <intent-filter>
+61-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:41:13-45:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:42:17-69
+62-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:42:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:44:17-77
+64-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:44:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <meta-data
+68-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:48:9-50:57
+69            android:name="preloaded_fonts"
+69-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:49:13-43
+70            android:resource="@array/preloaded_fonts" />
+70-->C:\Users\user\AndroidStudioProjects\BahadirErayRetrofitProject\app\src\main\AndroidManifest.xml:50:13-54
+71        <!-- Needs to be explicitly declared on P+ -->
+72        <uses-library
+72-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+73            android:name="org.apache.http.legacy"
+73-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+74            android:required="false" />
+74-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\user\.gradle\caches\transforms-3\fcf49a0acf062e98651e1153820e632e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\transforms-3\5f3bc9f9cc65e5971ec198208d603825\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\transforms-3\5f3bc9f9cc65e5971ec198208d603825\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\transforms-3\5f3bc9f9cc65e5971ec198208d603825\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\user\.gradle\caches\transforms-3\5f3bc9f9cc65e5971ec198208d603825\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\5c9f7693dc04128d19d9816552e2462e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\5c9f7693dc04128d19d9816552e2462e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\user\.gradle\caches\transforms-3\5c9f7693dc04128d19d9816552e2462e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+84
+85        <uses-library
+85-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+86            android:name="androidx.window.extensions"
+86-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+88        <uses-library
+88-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+89            android:name="androidx.window.sidecar"
+89-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\930d016ca6988b27ab32cf4688f06056\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+91
+92        <provider
+92-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\4eab5cdc707ce5f22d3eab9cae27b3db\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+93            android:name="com.squareup.picasso.PicassoProvider"
+93-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\4eab5cdc707ce5f22d3eab9cae27b3db\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+94            android:authorities="com.example.bahadir_eray_retrofitproject.com.squareup.picasso"
+94-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\4eab5cdc707ce5f22d3eab9cae27b3db\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+95            android:exported="false" />
+95-->[com.squareup.picasso:picasso:2.8] C:\Users\user\.gradle\caches\transforms-3\4eab5cdc707ce5f22d3eab9cae27b3db\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+96
+97        <service
+97-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\8379e181d30d52e192292f213135eb24\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+98            android:name="androidx.room.MultiInstanceInvalidationService"
+98-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\8379e181d30d52e192292f213135eb24\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+99            android:directBootAware="true"
+99-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\8379e181d30d52e192292f213135eb24\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+100            android:exported="false" />
+100-->[androidx.room:room-runtime:2.4.3] C:\Users\user\.gradle\caches\transforms-3\8379e181d30d52e192292f213135eb24\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+101
+102        <provider
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+104            android:authorities="com.example.bahadir_eray_retrofitproject.androidx-startup"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+105            android:exported="false" >
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+108                android:value="androidx.startup" />
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7737deb34c7c3d7c8c92816de3cc3e84\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\0ec40fccc59af2ab4dad295eafff05cb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\0ec40fccc59af2ab4dad295eafff05cb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+111                android:value="androidx.startup" />
+111-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\0ec40fccc59af2ab4dad295eafff05cb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+112        </provider>
+113    </application>
+114
+115</manifest>

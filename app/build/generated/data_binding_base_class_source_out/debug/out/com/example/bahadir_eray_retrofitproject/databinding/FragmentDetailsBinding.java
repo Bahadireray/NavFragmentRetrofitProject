@@ -4,7 +4,6 @@ package com.example.bahadir_eray_retrofitproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -13,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.bahadir_eray_retrofitproject.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,10 +22,13 @@ public final class FragmentDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageViewDetail;
+  public final CircleImageView imageViewDetail;
 
   @NonNull
   public final LinearLayout linearLayout;
+
+  @NonNull
+  public final LinearLayout linearLayout3;
 
   @NonNull
   public final TextView marsIdDetails;
@@ -37,12 +40,13 @@ public final class FragmentDetailsBinding implements ViewBinding {
   public final TextView marsTypeDetails;
 
   private FragmentDetailsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageViewDetail, @NonNull LinearLayout linearLayout,
-      @NonNull TextView marsIdDetails, @NonNull TextView marsPriceDetails,
-      @NonNull TextView marsTypeDetails) {
+      @NonNull CircleImageView imageViewDetail, @NonNull LinearLayout linearLayout,
+      @NonNull LinearLayout linearLayout3, @NonNull TextView marsIdDetails,
+      @NonNull TextView marsPriceDetails, @NonNull TextView marsTypeDetails) {
     this.rootView = rootView;
     this.imageViewDetail = imageViewDetail;
     this.linearLayout = linearLayout;
+    this.linearLayout3 = linearLayout3;
     this.marsIdDetails = marsIdDetails;
     this.marsPriceDetails = marsPriceDetails;
     this.marsTypeDetails = marsTypeDetails;
@@ -76,7 +80,7 @@ public final class FragmentDetailsBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.imageViewDetail;
-      ImageView imageViewDetail = ViewBindings.findChildViewById(rootView, id);
+      CircleImageView imageViewDetail = ViewBindings.findChildViewById(rootView, id);
       if (imageViewDetail == null) {
         break missingId;
       }
@@ -84,6 +88,12 @@ public final class FragmentDetailsBinding implements ViewBinding {
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
         break missingId;
       }
 
@@ -106,7 +116,7 @@ public final class FragmentDetailsBinding implements ViewBinding {
       }
 
       return new FragmentDetailsBinding((ConstraintLayout) rootView, imageViewDetail, linearLayout,
-          marsIdDetails, marsPriceDetails, marsTypeDetails);
+          linearLayout3, marsIdDetails, marsPriceDetails, marsTypeDetails);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

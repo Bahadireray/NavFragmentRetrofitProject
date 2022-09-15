@@ -12,6 +12,7 @@ import com.squareup.picasso.Picasso
 
 class DetailsFragment : Fragment() {
 
+    // View Binding
     private var _binding: FragmentDetailsBinding? = null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,10 @@ class DetailsFragment : Fragment() {
         return view
     }
 
+    /*
+    We provide equality in our class with values from another file.
+    Since the image file is a proprietary format, I reprocessed it in the library.
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

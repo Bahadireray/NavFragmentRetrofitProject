@@ -8,34 +8,56 @@
     tools:context=".view.DetailsFragment">
 
 
-    <ImageView
-        android:id="@+id/imageViewDetail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/astranot"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="#000000"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewDetail"></LinearLayout>
+        android:layout_height="350dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/ic_radius_background"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewDetail"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/ic_radius_background"
+            android:src="@drawable/astranot" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="276dp"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <TextView
             android:id="@+id/marsPriceDetails"
@@ -46,7 +68,7 @@
             android:padding="2dp"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/marsTypeDetails"
@@ -57,7 +79,7 @@
             android:padding="2dp"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/marsIdDetails"
@@ -68,6 +90,7 @@
             android:padding="2dp"
             android:text="TextView"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="25sp" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

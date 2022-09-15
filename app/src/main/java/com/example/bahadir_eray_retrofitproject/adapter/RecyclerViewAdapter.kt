@@ -11,6 +11,10 @@ import com.squareup.picasso.Picasso
 
 class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: Listener) :
     RecyclerView.Adapter<RecyclerViewAdapter.MarsHolder>() {
+    /*
+    Recycle View, a function to listen for clicks.
+    An interface was made to be called from outside.
+     */
     interface Listener {
         fun onItemClick(marsModel: MarsModel)
     }
@@ -24,12 +28,16 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: L
         }
     }
 
+    //Function used to define the custom row view created.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsHolder {
         val recyclerRowLayoutBinding =
             RowLayoutBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return MarsHolder(recyclerRowLayoutBinding)
     }
 
+    /*We equate the values of the 'MarsList' with the data in the values we hold the views.
+    A special library for images -> Picasso
+     */
     override fun onBindViewHolder(holder: MarsHolder, position: Int) {
         holder.recyclerRowLayoutBinding.marsId.text = marsList[position].id.toString()
         holder.recyclerRowLayoutBinding.marsPrice.text = marsList[position].price.toString()
@@ -42,6 +50,7 @@ class RecyclerViewAdapter(val marsList: List<MarsModel>, private val listener: L
         holder.bind(marsList[position], position, listener)
     }
 
+    //We get the number of lists.
     override fun getItemCount(): Int {
         return marsList.count()
     }

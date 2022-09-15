@@ -8,9 +8,13 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MarsAPIService {
 
-    // GET, POST, UPDATE, DELETE
-    // Base Url: https://mars.udacity.com/
-    // GET: realestate
+    /* GET, POST, UPDATE, DELETE
+    Base Url: https://mars.udacity.com/
+    GET: realestate
+    Assignment to a service arrangement instead of populating classes with transactions.
+    MarsApı->MarsAPIService
+     */
+
     private val BASE_URL = "https://mars.udacity.com/"
     private val api = Retrofit.Builder()
         .baseUrl(BASE_URL)

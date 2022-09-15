@@ -4,7 +4,6 @@ package com.example.bahadir_eray_retrofitproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.bahadir_eray_retrofitproject.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,7 +24,7 @@ public final class RowLayoutBinding implements ViewBinding {
   public final TextView marsId;
 
   @NonNull
-  public final ImageView marsImageView;
+  public final CircleImageView marsImageView;
 
   @NonNull
   public final TextView marsPrice;
@@ -36,8 +36,8 @@ public final class RowLayoutBinding implements ViewBinding {
   public final ConstraintLayout rowMars;
 
   private RowLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull TextView marsId,
-      @NonNull ImageView marsImageView, @NonNull TextView marsPrice, @NonNull TextView marsType,
-      @NonNull ConstraintLayout rowMars) {
+      @NonNull CircleImageView marsImageView, @NonNull TextView marsPrice,
+      @NonNull TextView marsType, @NonNull ConstraintLayout rowMars) {
     this.rootView = rootView;
     this.marsId = marsId;
     this.marsImageView = marsImageView;
@@ -80,7 +80,7 @@ public final class RowLayoutBinding implements ViewBinding {
       }
 
       id = R.id.marsImageView;
-      ImageView marsImageView = ViewBindings.findChildViewById(rootView, id);
+      CircleImageView marsImageView = ViewBindings.findChildViewById(rootView, id);
       if (marsImageView == null) {
         break missingId;
       }

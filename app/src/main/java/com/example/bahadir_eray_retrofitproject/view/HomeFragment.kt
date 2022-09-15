@@ -15,6 +15,7 @@ import com.example.bahadir_eray_retrofitproject.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
+    //View Binding
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
@@ -31,6 +32,7 @@ class HomeFragment : Fragment() {
         return view
     }
 
+    //Processed for custom texts on the splash screen.
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -42,7 +44,6 @@ class HomeFragment : Fragment() {
         binding.txtHomeText.text = colorSpan
         binding.loginButton.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_menuFragment)
-
         }
     }
 }

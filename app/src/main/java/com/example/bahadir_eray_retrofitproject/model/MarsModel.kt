@@ -11,5 +11,4 @@ data class MarsModel(
     val type: String,
     @SerializedName("img_src")
     val img_src: String
-) {
-}
+)

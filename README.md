@@ -1,7 +1,7 @@
 # Bahadir-Eray-RetrofitProject
 
 ## Kullanılan 3. Parti Kütüphaneler
-### recyclerview
+### Recyclerview
 ### Rxjava
 ### Picasso
 ### Circleimageview

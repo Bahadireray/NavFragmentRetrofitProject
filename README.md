@@ -1,6 +1,6 @@
 # Bahadir-Eray-RetrofitProject
 
-## Kullanılan 3. Parti Kütüphaneler
+## Kullanılan Teknolojiler
 ### Recyclerview
 ### Rxjava
 ### Picasso

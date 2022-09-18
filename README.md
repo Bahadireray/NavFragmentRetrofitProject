@@ -1,6 +1,7 @@
 # Bahadir-Eray-RetrofitProject
 
 ## Kullanılan Teknolojiler
+### Retrofit
 ### Recyclerview
 ### Rxjava
 ### Picasso
